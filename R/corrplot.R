@@ -1,4 +1,4 @@
-#' correlation plot
+#' select independent variables and draw correlation plot
 #'
 #' @description In a dataset with many variables, select several variables with the highest correlation with one specific variable, which can be the dependent variable of the study.
 #'              Draw the correlation plot of these selected independent variables.
@@ -18,5 +18,5 @@ corrplot = function(dataset, depvar, n){
   cor_high_var = rownames(cor_sorted)[2:n+1]
   mydata=dataset[,cor_high_var]
   cor_var=cor(mydata, use="pairwise.complete.obs")
-  corrplot.mixed(cor_var,tl.col="black")
+  corrplot::corrplot.mixed(cor_var,tl.col="black")
 }

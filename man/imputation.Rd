@@ -24,6 +24,6 @@ Several methods to impute the missing data
 world_data=drop_NA(world_data_raw,null="..")
 
 world=imputation(world_data,col=c(4,7))
-world=imputation(world_data,col=c(1:7),method = "mean")
+world=imputation(world_data,col=c(2:7),method = "mean")
 world=imputation(world_data,col=c(4:5),method = "median")
 }

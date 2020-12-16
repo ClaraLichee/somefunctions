@@ -5,7 +5,7 @@
 \alias{world_data_raw}
 \title{World Health Data}
 \format{
-259 X 69 dataframe
+259 X 66 dataframe
 }
 \usage{
 world_data_raw

@@ -2,7 +2,7 @@
 % Please edit documentation in R/corrplot.R
 \name{corrplot}
 \alias{corrplot}
-\title{correlation plot}
+\title{select independent variables and draw correlation plot}
 \usage{
 corrplot(dataset, depvar, n)
 }

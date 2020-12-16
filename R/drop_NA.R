@@ -14,7 +14,7 @@
 #' world_data=drop_NA(world_data_raw,null="..")
 drop_NA = function(df, threshold=0.1, null=NA){
   num_obs=nrow(df)
-  df = na_if(df, null)
+  df = dplyr::na_if(df, null)
   df_drop=df[,colSums(is.na(df))<num_obs*threshold]
   return(df_drop)
 }

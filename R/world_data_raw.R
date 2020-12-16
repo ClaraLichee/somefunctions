@@ -1,6 +1,6 @@
 #' World Health Data
 #'
-#' @format 259 X 69 dataframe
+#' @format 259 X 66 dataframe
 #'
 
 

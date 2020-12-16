@@ -20,6 +20,6 @@ Return a dataframe containing the time series as well as corresponding time.
 Get time series from FRED, using API
 }
 \examples{
-maize_price_df = get_fred_series("PMAIZMTUSDM","2011-10-01","2020-10-01")
+maize_price_df = get_fred("PMAIZMTUSDM","2011-10-01","2020-10-01")
 
 }

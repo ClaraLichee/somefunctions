@@ -9,7 +9,7 @@
 #' @return Return a dataframe containing the time series as well as corresponding time.
 #'
 #' @examples
-#' maize_price_df = get_fred_series("PMAIZMTUSDM","2011-10-01","2020-10-01")
+#' maize_price_df = get_fred("PMAIZMTUSDM","2011-10-01","2020-10-01")
 #'
 get_fred = function(series_id, start_date,end_date){
   URL = "https://api.stlouisfed.org/fred/series/observations"
